@@ -1,0 +1,28 @@
+p{
+    display: inline;
+}
+body{
+    background-color: burlywood;
+}
+.center {
+    margin: auto;
+    width: 50%;
+    padding: 10px;
+  }
+
+
+.headInfo{
+    background-color: brown; 
+    display: inline; 
+    color: bisque;
+    border: 5px; border-radius: 10px;
+
+}
+
+h1{
+    color: brown;
+}
+
+.contentInfo{
+    color: brown;
+}
