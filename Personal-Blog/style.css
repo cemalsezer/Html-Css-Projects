@@ -1,0 +1,53 @@
+html{
+    background-color: #2C3333 ;
+    color: beige;
+}
+.logo{
+    text-align: left;
+    display: inline;
+
+}
+.right-nav{
+    text-align: right;
+    display: inline;
+   margin-left: 20px;
+}
+nav{
+    max-width: 650px;
+    margin: auto;
+    margin-bottom: 30px;
+}
+main{
+  max-width: 650px;
+  margin: auto;
+  padding: 5px;
+ 
+
+}
+
+.right-aside
+{
+    width: 325px;
+    padding: 1px;
+    margin: 0;
+    float: right;    
+    display: inline-block;
+}
+.left-aside{
+    width: 300px;
+    padding: 1px;
+    margin: 0;    
+    display: inline-block;
+}
+footer{
+    max-width: 650px;
+    margin: auto;
+    margin-top: 10px;
+     padding: 5px;
+     background-color: gray;
+     
+}
+a{
+    color: white;
+    text-decoration: none;
+}
