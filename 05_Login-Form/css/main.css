@@ -1,0 +1,88 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Open Sans', sans-serif;
+}
+
+
+body{
+    background-color: gray;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  
+}
+.container{
+    background-color: black;
+    padding: 2%;
+    color: antiquewhite;
+    max-width: 40%;
+    height: 500px;
+}
+
+.text-login{
+    text-align: center;
+    font-size: 1.5em;
+    margin-bottom: 5px;
+}
+.text-info{
+    text-align: center;
+    color: gray;
+    margin-bottom: 15px;
+}
+input{
+    background-color: black;
+    margin: 10px 50px;
+    text-align: center;
+    width: 200px;
+    height: 45px;
+    border: 3px solid dodgerblue;
+    border-radius: 25px;
+    padding: 8px;
+}
+input:hover{
+    background-color: aliceblue;
+    color: black;
+    border: 5px solid dodgerblue ;
+}
+.psd-input{
+    margin-bottom: 20px;
+}
+.btn-login{
+    background-color: black;
+    color: azure;
+    margin: 5px 100px;
+    width: 100px;
+    height: 45px;
+    border: 3px solid green;
+    border-radius: 20px;
+    padding: 8px;
+}
+button:hover{
+    background-color: aliceblue;
+    color: black;
+    border: 4px solid green ;
+    
+}
+.container p a{
+    color: gray;
+}
+.container p a:hover{
+    color: azure;
+}
+.forgot{
+    text-align: center;
+    margin-bottom: 10px;
+}
+.social-media{
+    margin: 10px;
+    text-align: center;
+}
+.social-media a{
+    text-decoration: none;
+}
+
+.social-media i{
+    margin-right: 15px;
+}
