@@ -45,3 +45,34 @@ header .login a {
     color: black;
     border-radius: 40px;
 }
+
+header .menu ul li a:hover{ 
+    background-color: black;
+    color: white;
+}
+header .login a:hover{
+    background-color: white;
+    border: 1px solid black;
+    color: black;
+}
+header .little-menu{
+    display: none;
+}
+
+@media screen and (max-width: 600px){
+  header .menu{
+        display: none;
+    }
+    header .little-menu {
+        display: block;
+        height: 40px;
+        line-height: 40px;
+        width: 60px;
+        background-color: white;
+        border-radius: 10px;
+    }
+  .little-menu:hover{
+      background-color: black;
+      color:white;
+  }
+}
