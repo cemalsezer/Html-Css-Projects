@@ -29,7 +29,7 @@ overflow: hidden;
     display: block;
     text-align: center;
     padding: 0 16px;
-    height: 35px;
+    height: 45px;
     width: 100%;
     border: none;
 }
@@ -46,9 +46,18 @@ overflow: hidden;
     color: white;
     border-radius: 50px;
     cursor: pointer;
+    transition: 0.8s;
+    display: block;
 }
 .btn:hover{
     background-color: white;
     color: #131034;
     font-weight: 400;
+    transform: scale(0.96);
+}
+a{
+    color: wheat;
+    text-decoration: none;
+    transition: 0.8s;
+    padding: 20px;
 }
