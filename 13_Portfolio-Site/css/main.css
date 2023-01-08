@@ -4,7 +4,7 @@
     box-sizing: border-box;
 }
 html{
-    font-size: 6px;
+    font-size: 10px;
 }
 
 body{
@@ -21,21 +21,22 @@ li{
     list-style: none;
 }
 .nav-bar{
-    font-family: Montserrat;
-    position: fixed;
-    padding-top: 2rem;
-    padding-bottom: 2rem;
-    height: 80px;
+    padding-top: 3rem;
+    padding-bottom: 3rem;
+    /* height: 80px; */
     width: 100%;
     background-color: #2c3e4f;
     color: white ;
     display: flex;
     justify-content: space-evenly;
+    position: fixed;
+    z-index: 1;
 }
 .logo{
     display: flex;
     align-items: center;
-    font-size: 2.8rem;
+    font-size: 3rem;
+    line-height: 1.5;
 }
 .nav-links{
     display: flex;
@@ -44,8 +45,56 @@ li{
 
 .nav-item{
     margin: 0 15px;
+    font-size: 1.5rem;
 }
 .nav-link:hover{
     transition: color 0.5s;
     color: #1abc9b;
+}
+header{
+    height: 700px;
+    background-color: #1abc9b;
+    text-align: center;
+    padding-top: calc(105px + 4rem);
+
+}
+.img-box{
+    max-width: 256px;
+}
+
+.header-box{
+    /* margin-top: 3rem; */
+    
+}
+.star-light, .star-dark {
+    border: none;
+    border-top: 0.4rem solid;
+    border-radius: 10px;
+    max-width: 25rem;
+    margin: 2.5rem auto;
+    overflow: visible;
+    height: 0;
+}
+.star-light::after, .star-dark::after {
+    content: "\2605";
+    font-weight: 900;
+    font-size: 3.2rem;
+    position: relative;
+    top: -28px;
+    padding: 0 8px;
+}
+.star-light::after{
+    background-color: #1abc9b;
+    color: #fff;
+}
+.star-light{
+    border-color: #fff;
+}
+.header-name{
+    font-size: 6rem;
+    color: white;
+}
+#portfolio{
+    height: 900px;
+    background-color: gray;
 }
