@@ -61,11 +61,6 @@ header{
 .img-box{
     max-width: 256px;
 }
-
-.header-box{
-    /* margin-top: 3rem; */
-    
-}
 .star-light, .star-dark {
     border: none;
     border-top: 0.4rem solid;
@@ -87,8 +82,15 @@ header{
     background-color: #1abc9b;
     color: #fff;
 }
+.star-dark::after{
+    background-color: white;
+    color: #2c3e4f;
+}
 .star-light{
     border-color: #fff;
+}
+.star-dark{
+    border-color: #2c3e4f;
 }
 .header-name{
     font-size: 6rem;
@@ -96,5 +98,48 @@ header{
 }
 #portfolio{
     height: 900px;
-    background-color: gray;
+    padding-top: 10rem;
+    padding-bottom: 10rem;
+    text-align: center;
+    color: white;
 }
+#portfolio h2{
+    font-size: 4rem;
+    color: #2c3e4f;
+}
+.portfolio-area{
+    padding-bottom: 10rem;
+    padding-left: 2rem;
+    padding-right: 2rem;
+}
+
+.portfolio-img{
+    /* max-width: 256px; */
+    max-width: 80%;
+    margin-top: 10px;
+    border-radius: 13px;
+}
+
+@media (min-width: 796px) {
+ .portfolio-area{
+    max-width: 100%;
+ }
+ .portfolio-item{
+    max-width: 50%;
+    float: left; 
+ }
+ .portfolio-img{
+ }
+}
+
+@media (min-width: 1200px) {
+    .portfolio-area{
+       max-width: 100%;
+    }
+    .portfolio-item{
+       max-width: 33.3%;
+
+    }
+    .portfolio-img{
+    }
+   }
