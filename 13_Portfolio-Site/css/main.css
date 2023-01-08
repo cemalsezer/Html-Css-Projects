@@ -109,8 +109,8 @@ header{
 }
 .portfolio-area{
     padding-bottom: 10rem;
-    padding-left: 2rem;
-    padding-right: 2rem;
+    padding-left: 9rem;
+    padding-right: 9rem;
 }
 
 .portfolio-img{
@@ -128,8 +128,7 @@ header{
     max-width: 50%;
     float: left; 
  }
- .portfolio-img{
- }
+
 }
 
 @media (min-width: 1200px) {
@@ -139,7 +138,5 @@ header{
     .portfolio-item{
        max-width: 33.3%;
 
-    }
-    .portfolio-img{
     }
    }
