@@ -37,6 +37,7 @@ li{
     font-size: 3rem;
     line-height: 1.5;
 }
+
 #nav-links{
     display: flex;
     align-items: center;
@@ -280,10 +281,15 @@ footer li{
     html{
         font-size: 7px;
     }
+    .logo{
+        margin-top: 15px;
+        padding-left: 3rem;
+        
+    }
     .nav-bar{
         flex-direction: column;
         text-align: left;
-        padding-left: 3rem;
+        padding-bottom: -2rem;
     }
     .nav-bar.responsive li:not(:first-child){
         display: none;
@@ -291,6 +297,7 @@ footer li{
     #nav-links{
         flex-direction: column;
         align-items: flex-start;
+        
     }
     .nav-item{
         margin-bottom: 25px;
@@ -302,6 +309,7 @@ footer li{
         flex-direction: column;
     }
     .nav-icon{
+        margin-top: 15px;
         display: block;
         position: absolute;
         top:25px;
