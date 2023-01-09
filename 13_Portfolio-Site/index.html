@@ -19,13 +19,24 @@
     <title>Document</title>
   </head>
   <body>
-    <nav class="nav-bar">
+    <nav class="nav-bar responsive">
       <div class="logo">Start Bootstrap</div>
-      <ul class="nav-links">
-        <li class="nav-item"><a href="" class="nav-link">PORTFOLIO</a></li>
-        <li class="nav-item"><a href="" class="nav-link">ABOUT</a></li>
-        <li class="nav-item"><a href="" class="nav-link">CONTACT</a></li>
-      </ul>
+        <ul id="nav-links">
+          <li class="nav-item">
+            <a href="" class="nav-link nav-icon"> 
+              <i class="fas fa-bars"></i>
+            </a>
+          </li>
+          <li class="nav-item">
+            <a href="" class="nav-link">PORTFOLIO</a>
+          </li>
+          <li class="nav-item">
+            <a href="" class="nav-link">ABOUT</a>
+          </li>
+          <li class="nav-item">
+            <a href="" class="nav-link">CONTACT</a>
+          </li>
+        </ul>      
     </nav>
     <header>
       <div class="header-box">
@@ -99,23 +110,28 @@
     </section>
     <section id="contact">
       <h2>CONTACT ME</h2>
-      <hr class="star-dark">
+      <hr class="star-dark" />
       <form id="form-area">
         <div class="form-item">
-          <input type="text" id="name" placeholder="Name">
+          <input type="text" id="name" placeholder="Name" />
         </div>
         <div class="form-item">
-          <input type="text" id="sname" placeholder="Surname">
+          <input type="text" id="sname" placeholder="Surname" />
         </div>
         <div class="form-item">
-          <input type="phone" id="phone" placeholder="Phone">
+          <input type="phone" id="phone" placeholder="Phone" />
         </div>
         <div class="form-item">
-          <textarea  id="message" cols="20" rows="5"placeholder="message"></textarea>
+          <textarea
+            id="message"
+            cols="20"
+            rows="5"
+            placeholder="message"
+          ></textarea>
         </div>
         <button class="btn-send">Send</button>
       </form>
-    </section> 
+    </section>
     <footer>
       <div class="footer-item">
         <h2>LOCATION</h2>
@@ -156,5 +172,15 @@
         <small>Copyright © Cemal Sezer 2023</small>
       </div>
     </div>
+    <script
+  src="https://code.jquery.com/jquery-3.6.3.min.js"
+  integrity="sha256-pvPw+upLPUjgMXY0G+8O0xUf+/Im1MZjXxxgOcBQBXU="
+  crossorigin="anonymous"></script>
+  <script>
+    $(".nav-icon").click(function(){
+      $(".nav-bar").toggleClass("responsive");
+      return false;
+    });
+  </script>
   </body>
 </html>

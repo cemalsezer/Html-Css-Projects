@@ -37,11 +37,13 @@ li{
     font-size: 3rem;
     line-height: 1.5;
 }
-.nav-links{
+#nav-links{
     display: flex;
     align-items: center;
 }
-
+.nav-icon{
+    display: none;
+}
 .nav-item{
     margin: 0 15px;
     font-size: 1.5rem;
@@ -274,8 +276,68 @@ footer li{
     text-align: center;
     font-size: 1.5rem;
 }
-
+@media (max-width: 795px){
+    html{
+        font-size: 7px;
+    }
+    .nav-bar{
+        flex-direction: column;
+        text-align: left;
+        padding-left: 3rem;
+    }
+    .nav-bar.responsive li:not(:first-child){
+        display: none;
+    }
+    #nav-links{
+        flex-direction: column;
+        align-items: flex-start;
+    }
+    .nav-item{
+        margin-bottom: 25px;
+        font-size: 2rem;
+    }
+  
+    footer{
+        display: flex;
+        flex-direction: column;
+    }
+    .nav-icon{
+        display: block;
+        position: absolute;
+        top:25px;
+        right: 5px;
+        padding-right: 3rem;
+    }
+    .footer-item{
+        margin-bottom: 3rem;
+    }
+    #contact .star-dark{
+        display: none;
+    }
+    #form-area{
+        margin-top: 5rem;
+    }
+    .about-text{
+      display: inline-block;
+      text-align: justify;
+    }
+    .about-text-left{
+      padding: 0;
+      margin-bottom: 20px;
+    }
+    .about-text-right{
+        padding: 0;
+    }
+    #about .star-light{
+        display: none;
+    }
+    .about-text{
+        margin-top: 3rem;
+    }
+}
 @media (min-width: 796px) {
+    
+   
 #portfolio{
     height: calc(978px + 20rem);
 }
@@ -290,6 +352,7 @@ footer li{
 }
 
 @media (min-width: 1200px) {
+    
     #portfolio{
         height: 900px;
     }
