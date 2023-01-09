@@ -9,7 +9,6 @@ html{
 
 body{
     font-family: "Lato", sans-serif;
-    font-size: 2rem;
     font-weight: 400;
 }
 
@@ -78,6 +77,15 @@ header{
     top: -28px;
     padding: 0 8px;
 }
+#about .star-light::after{
+    content: "\2605";
+    font-weight: 900;
+    font-size: 3.2rem;
+    position: relative;
+    top: -28px;
+    padding: 0 8px;
+    right: -100px;
+}
 .star-light::after{
     background-color: #1abc9b;
     color: #fff;
@@ -97,7 +105,7 @@ header{
     color: white;
 }
 #portfolio{
-    height: 900px;
+    height: auto;
     padding-top: 10rem;
     padding-bottom: 10rem;
     text-align: center;
@@ -119,8 +127,55 @@ header{
     margin-top: 10px;
     border-radius: 13px;
 }
-
+#about{
+    background-color: #1abc9b;
+    color: #fff;
+    padding-top: 10rem;
+    padding-bottom: 15rem;
+}
+#about h2{
+    font-size: 5rem;
+    text-align: center;
+}
+#about .text{
+    font-size: 2.2rem;
+    
+}
+.about-text{
+    display: flex;
+}
+.about-text-left{
+    padding-left: 20rem;
+    padding-right: 2rem;
+}
+.about-text-right{
+    padding-right: 20rem;
+    padding-left: 2rem;
+}
+.btn{
+    display: flex;
+    justify-content: center ;
+    margin-top: 5rem;
+}
+.btn-download{
+    padding: 2.2rem 1.6rem;
+    font-weight: 400;
+    border: 2px solid #fff;
+    color: #fff;
+    background-color: #1abc9b;
+    font-size: 2rem;
+    transition: all 0.5s;
+    border-radius: 5px;
+}
+.btn-download:hover{
+    color: black;
+    background-color: #fff;
+    cursor: pointer;
+}
 @media (min-width: 796px) {
+#portfolio{
+    height: calc(978px + 20rem);
+}
  .portfolio-area{
     max-width: 100%;
  }
@@ -132,6 +187,9 @@ header{
 }
 
 @media (min-width: 1200px) {
+    #portfolio{
+        height: 900px;
+    }
     .portfolio-area{
        max-width: 100%;
     }
