@@ -86,6 +86,15 @@ header{
     padding: 0 8px;
     right: -100px;
 }
+#contact .star-dark::after{
+    content: "\2605";
+    font-weight: 900;
+    font-size: 3.2rem;
+    position: relative;
+    top: -28px;
+    padding: 0 8px;
+    right: -100px;
+}
 .star-light::after{
     background-color: #1abc9b;
     color: #fff;
@@ -172,6 +181,54 @@ header{
     background-color: #fff;
     cursor: pointer;
 }
+#contact{
+    width: 50%;
+    margin: 0 auto;
+    padding-top: 10rem;
+    padding-bottom: 10rem;
+}
+
+#contact h2{
+    font-size: 5rem;
+    text-align: center;
+    color: #2c3e4f;
+    font-weight: 800;
+}
+#form-area{
+    text-align: left;
+}
+.form-item{
+    margin-bottom: 10px;
+    border-bottom: 1px rgb(231, 231, 231) solid;
+}
+
+.form-item input, .form-item textarea{
+    font-size: 3rem;
+    display: block;
+    width: 100%;
+    border: none;
+    padding-bottom: 2rem;
+}
+
+.form-item input:focus, .form-item textarea:focus{
+    outline: 0;
+}
+.btn-send{
+    background-color: #1abc9b;
+    color: #fff;
+    height: 5rem;
+    width: 8rem;
+    border: none;
+    outline: #1abc9b;
+    transition: all 0.5s;
+    border-radius: 5px;
+}
+.btn-send:hover{
+    background-color:#13705e ;
+    cursor: pointer;
+}
+
+
 @media (min-width: 796px) {
 #portfolio{
     height: calc(978px + 20rem);
