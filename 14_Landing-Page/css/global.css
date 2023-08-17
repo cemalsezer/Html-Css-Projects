@@ -6,3 +6,13 @@ body{
 .dark-blue{
     background-color: #062e51;
 }
+
+/*text-styles*/
+.italic-txt{
+    font-style: italic;
+    opacity: 0.6;
+}
+
+.big-txt{
+    font-size: 1.75rem;
+}
