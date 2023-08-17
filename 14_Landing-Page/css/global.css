@@ -6,6 +6,9 @@ body{
 .dark-blue{
     background-color: #062e51;
 }
+.white-txt{
+    color: #fff;
+}
 
 /*text-styles*/
 .italic-txt{

@@ -69,4 +69,29 @@
     margin-bottom: 5px;
 }
 
-/**/
+/*Lessons*/
+#lessons{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    padding: 2rem;
+}
+#lessons h2{
+    margin-bottom: 1rem;
+}
+.lessons-items{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    
+}
+.items-card{
+    margin: 0 1rem;
+}
+.items-card:hover{
+    transform: scale(1.1);
+    transition: transform 0.5s;
+    color: gray;
+}
