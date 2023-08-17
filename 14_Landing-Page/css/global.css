@@ -9,6 +9,10 @@ body{
 .white-txt{
     color: #fff;
 }
+.gray-txt{
+    color: gray;
+    opacity: 0.8;
+}
 
 /*text-styles*/
 .italic-txt{
@@ -18,4 +22,8 @@ body{
 
 .big-txt{
     font-size: 1.75rem;
+}
+
+.center-txt{
+    text-align: center;
 }
