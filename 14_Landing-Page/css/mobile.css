@@ -1,0 +1,18 @@
+#navbar {
+    flex-direction: column;
+    padding-top: 0.5rem;
+    padding-bottom: 0.5rem;
+    overflow: hidden;
+    height: 80px;
+  }
+  
+  #lessons .lessons-items {
+    flex-direction: column;
+  }
+  #lessons .lessons-items .items-card {
+    width: 100%;
+  }
+  .courses .course {
+    flex-direction: column;
+  }
+  
