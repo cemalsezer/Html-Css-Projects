@@ -39,6 +39,12 @@ body{
 .p-16{
     padding: 16px;
 }
+.mx-5{
+    margin: 0 5px;
+}
+.my-4rem{
+    margin: 4rem 0;
+}
 
 /*colors*/
 .white-txt{
@@ -46,6 +52,9 @@ body{
 }
 .orange-txt{
     color: #FF7575;
+}
+.gray-txt{
+    color:#909090;
 }
 
 
