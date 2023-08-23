@@ -42,8 +42,14 @@ body{
 .px-16{
     padding: 0 16px;
 }
+.px-7{
+    padding: 0 7px;
+}
 .px-5rem{
     padding: 0 5rem;
+}
+.px-5{
+    padding: 0 5px;
 }
 .px-6rem{
     padding: 0 6rem;
@@ -60,7 +66,10 @@ body{
 .my-6rem{
     margin: 6rem 0;
 }
+.mb-6rem{
+    margin-bottom: 6rem;
 
+}
 .my-4rem{
     margin: 4rem 0;
 }
@@ -182,4 +191,19 @@ body{
 .pagination-list li:hover{
     border-top: solid #FF7575;
     border-width: thin;
+}
+.author{
+    background-color: #4699E0;
+    width: 130px;
+    height: 34px;
+    border-radius: 5px;
+}
+.footer-group2{
+    width: 221px;
+    height: 34px;
+    background-color: #4699E0;
+    border-radius: 5px;
+}
+.fa-brands{
+
 }
